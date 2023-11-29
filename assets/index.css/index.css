@@ -1,0 +1,63 @@
+body {
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+   font-family: Snell Roundhand, cursive;
+  
+}
+
+header {
+    background-color: rgba(5, 5, 206, 0.795);
+    padding: 1px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px black;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    
+}
+ img {
+    border-radius: 5px;
+
+ }  
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    gap: 15px;
+    margin-top: 100px;
+}
+div {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+article {
+    border-radius: 15px;
+    border: 2px solid black;
+    
+    padding: 20px;
+}
+
+article p  {
+    font-size: 20px;
+}
+
+footer {
+    background-color: rgba(5, 5, 206, 0.795);
+    text-align: center;
+    margin-top: 35px;
+    padding: 1px;
+    color: white;
+    box-shadow: -2px -2px 5px black;
+}
